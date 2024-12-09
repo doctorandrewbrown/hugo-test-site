@@ -1,0 +1,12 @@
+{{ define "main"}}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center">{{ .Site.Title }}</h1>
+            <h2 class="text-secondary">{{ .Params.subtitle}}</h2>
+            {{ .Site.Params.baseURL }}
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+{{ end }}
