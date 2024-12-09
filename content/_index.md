@@ -6,7 +6,7 @@ draft: false
 ---
 
 ## Hello Hugo
-- item 1
-- item 2
+- hello hello
+- hello again
 ---
 [google](example.com)
